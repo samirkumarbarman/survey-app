@@ -1,0 +1,18 @@
+{
+  "name": "survey-app",
+  "version": "1.0.0",
+  "description": "A app that can take surveys",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Samir Kumar Barman",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1"
+  }
+}

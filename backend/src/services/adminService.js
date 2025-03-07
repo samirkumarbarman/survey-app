@@ -19,4 +19,9 @@ export const loginAdmin = async (email, password) =>{
 
     const token = jwt.sign({id :admin._id}, process.env.JWT_SECRET, { expiresIn : "7d"});
     return {token, adminId :admin._id};
-}
+};
+
+export const getAdminById = async (adminId) => {
+    const admin = await Admin.findById(adminId);
+    return admin;
+};

@@ -1,4 +1,4 @@
-import * as apiKeyService from "../services/apikey.service.js";
+import * as apiKeyService from "../services/apiKeyService.js";
 
 export const generateApiKey = async (req, res) => {
   try {

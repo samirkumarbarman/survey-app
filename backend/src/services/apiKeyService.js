@@ -1,4 +1,4 @@
-import ApiKey from "../models/apiKey.model.js";
+import ApiKey from "../models/apiKeyModel.js";
 import crypto from "crypto";
 
 export const generateApiKey = async (adminId) => {

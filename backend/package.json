@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A app that can take surveys",
   "main": "./src/server.js",
+  "type": "module",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node src/server.js"
   },
   "author": "Samir Kumar Barman",
   "license": "ISC",
